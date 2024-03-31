@@ -5,7 +5,7 @@
 <h2>🚀 Demo</h2>
 
 ![project mockup](https://github.com/maayan-aytek/linkedInfluencer_detector/assets/81248290/6bb08045-b492-4acd-99ea-955de5c8c3af)
-Link to the app: ([https://github.com/maayan-aytek/linkedInfluencer_detector/assets/81248290/6bb08045-b492-4acd-99ea-955de5c8c3af](https://linkedinfluencerdetector.streamlit.app/)) 
+Link to the app: (https://linkedinfluencerdetector.streamlit.app/)
 <h2>🛠️ Installation Steps:</h2>
 
 <p>1. Clone the GitHub repository:</p>
