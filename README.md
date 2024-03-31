@@ -3,7 +3,8 @@
 <p id="description">In today's digital marketing landscape social media influencers play a crucial role in product promotion. Even professional platforms like LinkedIn have their version of influencers known as "LinkedInfluencers". Our project equipped with a user interface built on Streamlit aims to predict potential LinkedInfluencers and recommend domain-specific online courses for them to endorse optimizing engagement and revenue.</p>
 
 <h2>🚀 Demo</h2>
-![project mockup](https://github.com/maayan-aytek/linkedInfluencer_detector/blob/master/project_mockup.gif)
+
+![project mockup](https://github.com/maayan-aytek/linkedInfluencer_detector/assets/81248290/6bb08045-b492-4acd-99ea-955de5c8c3af)
 
 <h2>🛠️ Installation Steps:</h2>
 
