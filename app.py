@@ -1,3 +1,4 @@
+import os
 import ast
 import pickle
 import numpy as np
@@ -35,7 +36,7 @@ def string_to_embedding_feature(df, col):
     """
     df[col] = df[col].astype(str).fillna(" ") # fill missing values 
     df[f'{col}_embedding'] = df[col].apply(get_sentence_embedding)
-    pickle_in = open(f"pca_trained_{col}.pickle", "rb")
+    pickle_in = open(os.path.join("trained_models", f"pca_trained_{col}.pickle"), "rb")
     pca_loaded = pickle.load(pickle_in)
     df_pca = pca_loaded.transform(np.stack(df[f'{col}_embedding']))
     df_pca = pd.DataFrame(df_pca, columns=[f'{col}_pca_{i+1}' for i in range(df_pca.shape[1])]).reset_index(drop=True)
@@ -75,7 +76,7 @@ def run_and_predict_influencers(df):
     Predict influencer label
     """
     X = prepare_data_for_modeling(df)
-    pickle_model = open("trained_model.pickle", "rb")
+    pickle_model = open(os.path.join("trained_models", "trained_model.pickle"), "rb")
     model_loaded = pickle.load(pickle_model)
     predictions = model_loaded.predict(X)
     df['predicted_influencer'] = predictions
@@ -104,7 +105,7 @@ def user_row_to_string(user_row):
 
 def match_user_course_category(user):
     genai.configure(api_key="AIzaSyA2UCE2Vk2vsG9UxzWJuNnxfnVHActKmzI")
-    courses = pd.read_csv("Course Count by Category.csv")["Sub Category"].to_list()
+    courses = pd.read_csv(os.path.join("data", "Course Count by Category.csv"))["Sub Category"].to_list()
     user_as_string = user_row_to_string(user)
     user_name = user['id']
     text_prompt = f"based on the following user features: \n {user_as_string} \n , recommend the user: {user_name},  which one category of courses will be the most suitable for it to advertise as an influencer, from the following list: {courses}. Explain the choice. The output should look like this: category (in bold) and in the next row the explanation"
