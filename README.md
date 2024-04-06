@@ -1,8 +1,8 @@
 <h1 align="center" id="title">"LinkedInfluencers" Detector: Leveraging Influencers on LinkedIn for Online Course Promotion – A Project Overview</h1>
 
-<p id="description">In this project, we explore the integration of influencer marketing strategies within the professional networking platform, LinkedIn. With the rapid expansion of digital marketing and the emergence of influencers as key promoters, we delve into the realm of "LinkedInfluencers" – influential users within the LinkedIn community. Our objective is to devise a model capable of detecting potential influencers and recommending domain-related online courses for them to promote.
+<p id="description">In this project, we explore the integration of influencer marketing strategies within the professional networking platform, LinkedIn. With the rapid expansion of digital marketing and the emergence of influencers as key promoters, we delve into the realm of "LinkedInfluencers" – influential users within the LinkedIn community. Our objective is to devise a model capable of detecting potential influencers and recommending domain-related online courses for them to promote.</p>
 
-<u>Two Central Research Questions</u>:<br>
+<ins>Two Central Research Questions</ins>:<br>
 •	Does the user possess the attributes indicative of an influencer?<br>
 •	If so, what online courses align with their domain expertise and interests?<br>
 
