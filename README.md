@@ -11,7 +11,7 @@ Link to the app: https://linkedinfluencerdetector.streamlit.app/
 <p>1. Clone the GitHub repository:</p>
 
 ```
-https://github.com/maayan-aytek/linkedInfluencer_detector.git
+git clone https://github.com/maayan-aytek/linkedInfluencer_detector.git
 ```
 
 <p>2. Install the required packages using pip:</p>
