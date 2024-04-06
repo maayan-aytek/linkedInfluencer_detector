@@ -6,7 +6,7 @@
 •	Does the user possess the attributes indicative of an influencer?<br>
 •	If so, what online courses align with their domain expertise and interests?<br>
 
-<u>Key Objectives</u>:<br>
+<ins>Key Objectives</ins>:<br>
 •	Develop a predictive model to identify users with the potential to become "LinkedInfluencers."<br>
 •	Propose a strategy for recommending online courses tailored to the expertise and interests of identified influencers.<br>
 •	Enhance user engagement with online courses through targeted promotion by influencers.<br>
