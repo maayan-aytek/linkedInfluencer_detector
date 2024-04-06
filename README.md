@@ -2,15 +2,15 @@
 
 <p id="description">In this project, we explore the integration of influencer marketing strategies within the professional networking platform, LinkedIn. With the rapid expansion of digital marketing and the emergence of influencers as key promoters, we delve into the realm of "LinkedInfluencers" – influential users within the LinkedIn community. Our objective is to devise a model capable of detecting potential influencers and recommending domain-related online courses for them to promote.
 
-Two Central Research Questions:
-•	Does the user possess the attributes indicative of an influencer?
-•	If so, what online courses align with their domain expertise and interests?
+<u>Two Central Research Questions</u>:<br>
+•	Does the user possess the attributes indicative of an influencer?<br>
+•	If so, what online courses align with their domain expertise and interests?<br>
 
-Key Objectives:
-•	Develop a predictive model to identify users with the potential to become "LinkedInfluencers."
-•	Propose a strategy for recommending online courses tailored to the expertise and interests of identified influencers.
-•	Enhance user engagement with online courses through targeted promotion by influencers.
-•	Potentially increase revenue streams for LinkedIn through enhanced course enrollments.
+<u>Key Objectives</u>:<br>
+•	Develop a predictive model to identify users with the potential to become "LinkedInfluencers."<br>
+•	Propose a strategy for recommending online courses tailored to the expertise and interests of identified influencers.<br>
+•	Enhance user engagement with online courses through targeted promotion by influencers.<br>
+•	Potentially increase revenue streams for LinkedIn through enhanced course enrollments.<br>
 
 This project serves as an exploration into the fusion of influencer marketing and LinkedIn platform. Through our findings and methodologies, we aim to provide insights and innovative approaches to digital marketing and user engagement for the marketers of the platform.
 
