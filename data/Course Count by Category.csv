@@ -1,35 +1,3 @@
-Sub Category,Main Category,Total Courses
-Business Analysis and Strategy,Business,993
-Business Software and Tools,Business,1509
-Career Development,Business,245
-Customer Service,Business,561
-Finance and Accounting,Business,334
-Human Resources,Business,307
-Leadership and Management,Business,1345
-Marketing,Business,3321
-Professional Development,Business,1060
-Project Management,Business,1559
-Sales,Business,1782
-Small Business and  Entrepreneurship,Business,675
-Training and Education,Business,346
-Cloud Computing,Technology,829
-Data Science,Technology,1673
-Database Management,Technology,360
-Devops,Technology,532
-IT Help Desk,Technology,183
-Mobile Development,Technology,338
-Network and System Administration,Technology,1105
-Security,Technology,4406
-Software Development,Technology,1166
-Web Development,Technology,1089
-AEC,Creative,1277
-Animation and Illustration,Creative,1680
-Audio and Music,Creative,1009
-Graphic Design,Creative,1665
-Motion Graphics and VFX,Creative,1353
-Photography,Creative,8123
-Product and Manufacturing,Creative,879
-User Experience,Creative,536
-Video,Creative,11448
-Visualization and Real-Time,Creative,1154
-Web Design,Creative,637
+version https://git-lfs.github.com/spec/v1
+oid sha256:383ca1910d0366bffe5580c87b3109e9f31ad123e463ebbf252cc1c005f5190f
+size 1191
