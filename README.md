@@ -25,3 +25,5 @@ pip install -r requirements.txt
 ```
 streamlit run app.py
 ```
+<h2>Explanations about the files:</h2>
+<p>1. ```data_loading_and_EDA.ipynb```</p> 
