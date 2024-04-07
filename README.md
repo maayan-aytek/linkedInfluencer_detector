@@ -22,7 +22,7 @@ Link to the app: https://linkedinfluencerdetector.streamlit.app/
 <h3>🚀 Demo</h3>
 
 ![project mockup](https://github.com/maayan-aytek/linkedInfluencer_detector/assets/81248290/6bb08045-b492-4acd-99ea-955de5c8c3af)
-<h2>🛠️ Installation Steps for running local:</h2>
+<h2>🛠️ Installation Steps for running local</h2>
 
 <p>1. Clone the GitHub repository:</p>
 
@@ -41,15 +41,15 @@ pip install -r requirements.txt
 ```
 streamlit run app.py
 ```
-<h2>💻The scraping process:</h2>
-<p id="description">As part of our project, we conducted extensive web scraping. We added two new features, the binary influencer label column and the number of connections feature, to the existing scraping code provided by BrightData. We utilized BrightData's scraping platform to create our scraper (Link to the scraper: https://brightdata.com/cp/data_collector/collector/c_lty8hvd113in7d98hx/initiate_manually?auto_run_discovery=1). Within the scraper, we defined the output schema to include both features as numeric values and added the necessary code to access the relevant HTML tags. Once everything was set up, we uploaded a CSV file containing user URLs and ran the code.</p>
+<h2>💻The scraping process</h2>
+<p id="description">As part of our project, we conducted extensive web scraping. We added two new features, the binary influencer label column and the number of connections feature, to the existing scraping code provided by BrightData. We utilized BrightData's scraping platform to create our scraper (Link to the scraper: https://brightdata.com/cp/data_collector/collector/c_lty8hvd113in7d98hx/initiate_manually?auto_run_discovery=1).<br>Within the scraper, we defined the output schema to include both features as numeric values and added the necessary code to access the relevant HTML tags. Once everything was set up, we uploaded a CSV file containing user URLs and ran the code.</p>
 <p id="description">Overall, we generated three different scraped tables. The first table was created by simply uploading all the profile URLs without considering the consequences. Unfortunately, we only found four influencers out of 250,000 records. For the second and third tables, we approached the scraping process more strategically by inputting a sorted list of URLs based on the number of followers. The resulting data sets are as follows: .</p>
 
 •	inital_scraped_data.csv: Contains approximately 250,000 records with only 4 influencers identified.<br>
 •	9000_scraped_data.csv: Contains approximately 9,000 records with 40 identified influencers.<br>
 •	8000_scraped_data.csv: Contains approximately 8,000 records with 3 identified influencer<br>
 
-<h2>🔍The code files:</h2>
+<h2>🔍The code files</h2>
 <p>1. data_loading_and_EDA.ipynb- notebook for loading the scraped data and process it, preform EDA and eventually undersampling.</p> 
 <p>2. oversampling.ipynb- notebook for preforming oversampling using gemini API.</p> 
 <p>3. modeling.ipynb- notebook for model preparation and model selection.</p> 
