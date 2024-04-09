@@ -18,7 +18,7 @@ This project serves as an exploration into the fusion of influencer marketing an
 
 <h2>⭐UI</h2>
 <p id="description">Our project extends beyond predictive modeling; we have built a streamlined user interface (UI) using Streamlit. This UI provides an intuitive platform for users to interact with our predictive model. Through the UI, users can input LinkedIn profiles, allowing the model to analyze their attributes and determine their potential as influencers. Furthermore, the UI offers personalized course recommendations based on the user's expertise and interests.</p>
-Link to the app: https://linkedinfluencerdetector.streamlit.app/
+Link to the app: https://linkedinfluencerdetector.streamlit.app/ <br>
 You can use the data/small_df.csv as an input example to the app.
 <h3>🚀 Demo</h3>
 
