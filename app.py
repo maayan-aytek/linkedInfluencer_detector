@@ -104,7 +104,7 @@ def user_row_to_string(user_row):
     return user_string
 
 def match_user_course_category(user):
-    genai.configure(api_key="AIzaSyA2UCE2Vk2vsG9UxzWJuNnxfnVHActKmzI")
+    genai.configure(api_key="AIzaSyBkmXlYvHCJHSgsJlCyR9RXtDpHH2GqDpU")
     courses = pd.read_csv(os.path.join("data", "Course Count by Category.csv"))["Sub Category"].to_list()
     user_as_string = user_row_to_string(user)
     user_name = user['id']
